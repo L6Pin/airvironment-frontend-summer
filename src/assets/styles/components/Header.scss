@@ -1,0 +1,46 @@
+@import "../variables";
+
+.header {
+  height: 80px;
+  border-bottom: 1px solid $color-white;
+  padding: 0 30px;
+  @include flex(row, unset, center);
+
+  & h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 300;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    & span {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $border-opacity-white;
+    }
+  }
+
+  & .nav {
+    margin-left: 100px;
+    margin-top: 15px;
+    color: $border-opacity-white;
+
+    & span {
+      margin-right: 32px;
+      font-size: 14px;
+      //background: red;
+      display: inline-block;
+      padding: 10px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}
