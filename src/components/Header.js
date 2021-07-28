@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <div className="header">
-      <h1>
-        <span>AIR</span>vironment
-      </h1>
+      <Link to="/">
+        <h1>
+          <span>air</span>vironment
+        </h1>
+      </Link>
       <div className="nav">
         <span>ALL DATA</span>
         <span>AVERAGES</span>
