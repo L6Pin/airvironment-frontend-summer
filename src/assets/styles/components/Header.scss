@@ -5,6 +5,8 @@
   border-bottom: 1px solid $color-white;
   padding: 0 30px;
   @include flex(row, unset, center);
+  position: fixed;
+  width: 100%;
 
   & h1 {
     color: white;

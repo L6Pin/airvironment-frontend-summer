@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681d00b5-9fd6-41fc-b971-4283baa1b60c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/HighValueIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/LowVauleIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/SmallHumidity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/SmallPollution.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/SmallTemperature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/TemperatureIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/MeasurementCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/pages/Averages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Averages.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/MeasurementCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/MeasurementCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/pages/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/pages/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MeasurementCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MeasurementCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -58,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public" />
     </key>

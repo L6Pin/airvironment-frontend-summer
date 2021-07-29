@@ -5,9 +5,12 @@
 .app {
   background: $background;
   width: 100vw;
-  min-height: calc(100vh);
+  max-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 }
 
 a {
   text-decoration: none;
+  color: $border-opacity-white;
 }

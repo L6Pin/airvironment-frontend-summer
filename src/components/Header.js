@@ -10,7 +10,9 @@ const Header = () => {
       </Link>
       <div className="nav">
         <span>ALL DATA</span>
-        <span>AVERAGES</span>
+        <Link to="/averages">
+          <span>AVERAGES</span>
+        </Link>
       </div>
     </div>
   );
