@@ -1,8 +1,8 @@
 import React from "react";
 import "../assets/styles/pages/Home.scss";
 
-const Home = () => {
-  return (
+const Home = () => (
+  <>
     <div className="home-page-container">
       <div className="home-page-header">
         Welcome to the <span className="logo white-text">red</span>
@@ -112,7 +112,7 @@ const Home = () => {
       </div>
       <p className="signature">Frontend team</p>
     </div>
-  );
-};
+  </>
+);
 
 export default Home;

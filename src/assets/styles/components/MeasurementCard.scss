@@ -1,0 +1,82 @@
+@import "../variables";
+@import "../mixins";
+
+.measurement-card-container {
+  height: 220px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: $border-opacity-white;
+  font-family: $roboto;
+  color: $color-white;
+
+  hr {
+    height: 1px;
+    background-color: $color-white;
+    border: none;
+    width: 146px;
+    margin: 0 auto;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 5px;
+
+    .day-name {
+      font-weight: bold;
+      font-size: 28px;
+    }
+    .date {
+      font-size: 12px;
+    }
+  }
+
+  .measurements-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .measurement-podcard {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+
+      .left-podcard {
+        align-items: center;
+        display: flex;
+
+        .podcard-info {
+          display: flex;
+          flex-direction: column;
+          margin-left: 4px;
+          font-size: 10px;
+
+          .min,
+          .max {
+            display: flex;
+            display: flex;
+            align-items: center;
+            .max_reading {
+              margin-left: 3px;
+            }
+            .min_reading {
+              margin-left: 3px;
+            }
+          }
+        }
+      }
+      .right-podcard {
+        font-size: 24px;
+        .average-measurement {
+          font-weight: bold;
+          .ppb {
+            font-size: 12px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,13 @@
 @import "assets/styles/variables";
+@import "assets/styles/mixins";
+@import "assets/styles/components/Header";
 
 .app {
   background: $background;
   width: 100vw;
-  min-height: calc(100vh - 45px);
+  min-height: calc(100vh);
+}
+
+a {
+  text-decoration: none;
 }
