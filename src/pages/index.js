@@ -1,2 +1,4 @@
 import Home from "./Home";
-export { Home };
+import Averages from "./Averages";
+
+export { Home, Averages };
