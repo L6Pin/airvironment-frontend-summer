@@ -10,6 +10,7 @@
   background-color: $border-opacity-white;
   font-family: $roboto;
   color: $color-white;
+  margin: 12px;
 
   hr {
     height: 1px;
@@ -55,7 +56,6 @@
 
           .min,
           .max {
-            display: flex;
             display: flex;
             align-items: center;
             .max_reading {
