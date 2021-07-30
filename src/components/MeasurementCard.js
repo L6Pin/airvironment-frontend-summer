@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/styles/components/MeasurementCard.scss";
+import moment from "moment";
 
 import {
   SmallTemperature,
@@ -10,12 +11,17 @@ import {
   TemperatureIcon,
 } from "../assets/icons";
 
-function MeasurementCard({ fetchData, data }) {
+function MeasurementCard({ averageValue }) {
+  console.log(averageValue);
   return (
     <div className="measurement-card-container">
       <div className="title">
-        <div className="day-name">{data.title}</div>
-        <div className="date">{data.subtitle}</div>
+        <div className="day-name">
+          {moment(averageValue.date, "DD/M/YYYY").format("ddd")}
+        </div>
+        <div className="date">
+          {moment(averageValue.date, "DD/M/YYYY").format("DD. MMM YYYY.")}
+        </div>
       </div>
       <hr></hr>
       <div className="measurements-info">
@@ -25,18 +31,22 @@ function MeasurementCard({ fetchData, data }) {
             <div className="podcard-info">
               <div className="max">
                 <HighValueIcon />
-                <div className="max_reading">{data.max_temp}°C</div>
+                <div className="max_reading">
+                  {averageValue.maxTemperature}°C
+                </div>
               </div>
               <div className="min">
                 <LowValueIcon />
-                <div className="min_reading">{data.min_temp}°C</div>
+                <div className="min_reading">
+                  {averageValue.minTemperature}°C
+                </div>
               </div>
             </div>
           </div>
           <div className="right-podcard">
             /{" "}
             <span className="average-measurement">
-              {fetchData.temperature.toFixed(0)}°C
+              {averageValue.averageTemperature}°C
             </span>
           </div>
         </div>
@@ -46,18 +56,18 @@ function MeasurementCard({ fetchData, data }) {
             <div className="podcard-info">
               <div className="max">
                 <HighValueIcon />
-                <div className="max_reading">{data.max_humidity}%</div>
+                <div className="max_reading">{averageValue.maxHumidity}%</div>
               </div>
               <div className="min">
                 <LowValueIcon />
-                <div className="min_reading">{data.min_humidity}%</div>
+                <div className="min_reading">{averageValue.minHumidity}%</div>
               </div>
             </div>
           </div>
           <div className="right-podcard">
             /{" "}
             <span className="average-measurement">
-              {fetchData.humidity.toFixed(0)}%
+              {averageValue.averageHumidity}%
             </span>
           </div>
         </div>
@@ -67,18 +77,22 @@ function MeasurementCard({ fetchData, data }) {
             <div className="podcard-info">
               <div className="max">
                 <HighValueIcon />
-                <div className="max_reading">{data.max_pollution}ppb</div>
+                <div className="max_reading">
+                  {averageValue.maxPollution}ppb
+                </div>
               </div>
               <div className="min">
                 <LowValueIcon />
-                <div className="min_reading">{data.min_pollution}ppb</div>
+                <div className="min_reading">
+                  {averageValue.minPollution}ppb
+                </div>
               </div>
             </div>
           </div>
           <div className="right-podcard">
             /{" "}
             <span className="average-measurement">
-              {fetchData.pollution}
+              {averageValue.averagePollution}
               <span className="ppb">ppb</span>
             </span>
           </div>
