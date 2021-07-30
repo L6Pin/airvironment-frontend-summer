@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681d00b5-9fd6-41fc-b971-4283baa1b60c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/configureStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/initialState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/config/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/config/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/config/headers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/config/methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/config/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/config/statusCodes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/measurements.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,6 +57,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public" />
