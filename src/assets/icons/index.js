@@ -6,6 +6,7 @@ import LowValueIcon from "./LowVauleIcon";
 import TemperatureIcon from "./TemperatureIcon";
 import HumidityIcon from "./HumidityIcon";
 import PollutionIcon from "./PollutionIcon";
+import SlideDown from "./SlideDown";
 
 export {
   SmallTemperature,
@@ -16,4 +17,5 @@ export {
   TemperatureIcon,
   HumidityIcon,
   PollutionIcon,
+  SlideDown,
 };

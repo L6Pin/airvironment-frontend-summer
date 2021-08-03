@@ -1,0 +1,82 @@
+@import "../variables";
+
+.filter {
+  margin-top: 80px;
+  height: 128px;
+  background-color: $color-white;
+  display: flex;
+
+  div {
+    border: 1px red solid;
+    margin-top: 22px;
+  }
+
+  .filterData {
+    margin-left: 32px;
+    color: $color-green;
+    height: 58px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .filterName {
+      margin-left: 20px;
+      font-family: $roboto;
+      color: $background;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .slideDown {
+      margin-top: 0;
+      position: relative;
+
+      .iconSlideDown {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+    }
+
+    .filterChoice {
+      background: #10beb8;
+      color: $color-white;
+      border-radius: 17px;
+      border: 0;
+      height: 32px;
+      max-width: 137px;
+    }
+  }
+  #filters {
+    width: 192px;
+    height: 72px;
+
+    .filtersContainer {
+      background: $color-white;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+select {
+  font-size: 16px;
+  background: #10beb8;
+  font-family: $roboto;
+  color: $color-white;
+}
+input[type="date"] {
+  font-size: 16px;
+  margin-left: auto;
+  font-family: $roboto;
+  color: $color-white;
+}
+
+#range {
+  margin-left: 258px;
+}
+
+.unstyled::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}

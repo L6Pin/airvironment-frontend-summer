@@ -3,6 +3,7 @@ import { MeasurementCard } from "../components";
 import "../assets/styles/pages/Averages.scss";
 import { loadAverageValues } from "../redux/actions/averageActions";
 import { connect } from "react-redux";
+import Filter from "../components/Filter";
 
 function Averages({ averageValues, getAverageValues }) {
   useEffect(() => {

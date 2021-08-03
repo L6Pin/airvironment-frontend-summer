@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681d00b5-9fd6-41fc-b971-4283baa1b60c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/HumidityFull.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/HumidityOpasity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/PollutionFull.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/PollutionOpasity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/SlideDown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/TemperatureFull.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/TemperatureOpasity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/Filter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Filter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/initialState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/initialState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Averages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Averages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
