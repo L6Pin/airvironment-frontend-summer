@@ -1,5 +1,5 @@
 import { Route, Switch } from "react-router-dom";
-import { Home, Averages } from "./pages";
+import { Home, Averages, AllData } from "./pages";
 import { MeasurementCard } from "./components";
 
 const Routes = () => {
@@ -7,6 +7,7 @@ const Routes = () => {
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/averages" exact component={Averages} />
+      <Route path="/all-data" exact component={AllData} />
     </Switch>
   );
 };

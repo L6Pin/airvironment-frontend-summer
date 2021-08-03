@@ -9,7 +9,9 @@ const Header = () => {
         </h1>
       </Link>
       <div className="nav">
-        <span>ALL DATA</span>
+        <Link to="/all-data">
+          <span>ALL DATA</span>
+        </Link>
         <Link to="/averages">
           <span>AVERAGES</span>
         </Link>
