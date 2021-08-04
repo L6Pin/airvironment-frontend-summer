@@ -1,48 +1,63 @@
 @import "../variables";
+@import "../mixins";
 
 .header {
   height: 80px;
   border-bottom: 1px solid $color-white;
-  padding: 0 30px;
-  @include flex(row, unset, center);
   position: fixed;
   width: 100%;
+  box-sizing: border-box;
 
-  & h1 {
-    color: white;
-    font-size: 36px;
-    font-weight: 300;
-
-    &:hover {
-      cursor: pointer;
-    }
-
-    & span {
-      font-weight: bold;
-      text-transform: uppercase;
-      color: $border-opacity-white;
-    }
-  }
-
-  & .nav {
-    margin-left: 100px;
-    margin-top: 15px;
-    color: $border-opacity-white;
-
-    & span {
-      margin-right: 32px;
-      font-size: 14px;
-      //background: red;
-      display: inline-block;
-      padding: 10px;
+  .header-container {
+    @include flex(row, unset, center);
+    height: 100%;
+    position: relative;
+    padding: 0 30px;
+    & h1 {
+      color: white;
+      font-size: 36px;
+      font-weight: 300;
 
       &:hover {
         cursor: pointer;
       }
 
-      &:last-of-type {
-        margin-right: 0;
+      & span {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $border-opacity-white;
       }
     }
+
+    & .nav {
+      margin-left: 100px;
+      margin-top: 15px;
+      color: $border-opacity-white;
+
+      & span {
+        margin-right: 32px;
+        font-size: 14px;
+        //background: red;
+        display: inline-block;
+        padding: 10px;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .openCloseFilter {
+    position: absolute;
+    bottom: -26px;
+    right: 8px;
+  }
+
+  .filterOpen {
+    transform: rotate(45deg);
   }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const HumidityOpasity = () => (
+const HumidityOpacity = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="48"
@@ -60,4 +60,4 @@ const HumidityOpasity = () => (
     </g>
   </svg>
 );
-export default HumidityOpasity;
+export default HumidityOpacity;

@@ -1,13 +1,14 @@
 @import "../variables";
 
 .filter {
-  margin-top: 80px;
   height: 128px;
   background-color: $color-white;
   display: flex;
-
-  div {
-    border: 1px red solid;
+  position: relative;
+  box-sizing: unset;
+  width: 100vw;
+  justify-content: center;
+  > div {
     margin-top: 22px;
   }
 
@@ -59,6 +60,11 @@
       justify-content: space-between;
     }
   }
+  .checkedIcon {
+    position: absolute;
+    right: 15px;
+    top: 50px;
+  }
 }
 select {
   font-size: 16px;
@@ -73,10 +79,7 @@ input[type="date"] {
   color: $color-white;
 }
 
-#range {
-  margin-left: 258px;
-}
-
 .unstyled::-webkit-calendar-picker-indicator {
   opacity: 0;
+  margin-right: 5px;
 }

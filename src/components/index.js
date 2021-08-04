@@ -1,6 +1,6 @@
 import Header from "./Header";
 import MeasurementCard from "./MeasurementCard";
 import Filter from "./Filter";
+import SliderHours from "./SliderHours";
 
-export { Header };
-export { MeasurementCard, Filter };
+export { MeasurementCard, Filter, Header, SliderHours };

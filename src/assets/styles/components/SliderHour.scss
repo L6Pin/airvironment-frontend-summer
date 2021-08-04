@@ -1,0 +1,17 @@
+.MuiSlider-root {
+  color: #10beb8 !important;
+}
+
+.PrivateValueLabel-circle-4 {
+  border-radius: 50% !important;
+  margin-top: 60px !important;
+  background: none !important;
+
+  & span {
+    color: #10beb8 !important;
+  }
+
+  .MuiSlider-valueLabel {
+    transform: scale(1) translateY(40px) !important;
+  }
+}

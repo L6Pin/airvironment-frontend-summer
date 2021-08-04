@@ -12,9 +12,9 @@ const SlideDown = ({ className }) => (
       id="Symbol"
       transform="translate(7 11)"
       fill="#fff"
-      font-size="12"
-      font-family="Roboto-Regular, SF Compact"
-      letter-spacing="0em"
+      fontSize="12"
+      fontFamily="Roboto-Regular, SF Compact"
+      letterSpacing="0em"
     >
       <tspan x="-6.8" y="0">
         􀁱
